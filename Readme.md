@@ -45,6 +45,7 @@ This project is a RESTful API built using **Express.js** and **MongoDB**, implem
 ``` bash 
   npm install
 <hr>
+
 2.setUp the Enviroment variables 
 Create a .env file in the project root with the following values 
 ```bash 
@@ -52,9 +53,10 @@ Create a .env file in the project root with the following values
    JWT_SECRET=your_secret_key
    PORT=8000
    JWT_SECRET_EXPIRES_IN
+```
+
 
 <hr>
-
 3. start the Application
 
 ```bash 
