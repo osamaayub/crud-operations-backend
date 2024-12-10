@@ -60,7 +60,7 @@ const singleTask = async (req, res) => {
       return res.status(400).json({ message: "Invalid Id" });
     }
     //find One Task using Id 
-    const task = await task.findOne(id);
+    const task = await Task.findOne(id);
 
 
     //if task is not found
