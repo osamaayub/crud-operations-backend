@@ -40,7 +40,9 @@ This project is a RESTful API built using **Express.js** and **MongoDB**, implem
    ```bash
    git clone https://github.com/osamaayub/crud-operations-backend
    cd crud-operations-backend
-2. Install the Dependecies
+```bash
+<hr>
+1. Install the Dependecies
 ``` bash 
   npm install
 
