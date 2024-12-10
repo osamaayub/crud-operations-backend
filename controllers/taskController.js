@@ -56,11 +56,8 @@ const createNewTask = async (req, res) => {
 const singleTask = async (req, res) => {
   try {
     const { id } = req.params;
-    if (!mongoose.Types.ObjectId(id)) {
-      return res.status(400).json({ message: "Invalid Id" });
-    }
     //find One Task using Id 
-    const task = await Task.findOne(id);
+    const task = await Task.findOne({_id:id});
 
 
     //if task is not found
