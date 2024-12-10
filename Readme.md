@@ -50,8 +50,11 @@ This project is a RESTful API built using **Express.js** and **MongoDB**, implem
 Create a .env file in the project root with the following values
 
    MONGO_URI=mongodb://localhost:27017/mern-assessment
+   <br>
    JWT_SECRET=your_secret_key
+   <br>
    PORT=8000
+   <br>
    JWT_SECRET_EXPIRES_IN
 
 
