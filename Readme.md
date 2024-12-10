@@ -48,7 +48,6 @@ This project is a RESTful API built using **Express.js** and **MongoDB**, implem
 
 2. setUp the Enviroment variables
 Create a .env file in the project root with the following values
-<br>
 
    MONGO_URI=mongodb://localhost:27017/mern-assessment
    JWT_SECRET=your_secret_key
