@@ -40,13 +40,12 @@ This project is a RESTful API built using **Express.js** and **MongoDB**, implem
    ```bash
    git clone https://github.com/osamaayub/crud-operations-backend
    cd crud-operations-backend
-```bash
 <hr>
 1. Install the Dependecies
 ``` bash 
   npm install
-
-3.setUp the Enviroment variables 
+<hr>
+2.setUp the Enviroment variables 
 Create a .env file in the project root with the following values 
 ```bash 
    MONGO_URI=mongodb://localhost:27017/mern-assessment
@@ -54,15 +53,15 @@ Create a .env file in the project root with the following values
    PORT=8000
    JWT_SECRET_EXPIRES_IN
 
+<hr>
 
-4. start the Application
+3. start the Application
 
 ```bash 
-
-   npm run dev
-
-
-5. Authentication
+npm run dev
+``` 
+<hr>
+4. Authentication
 POST /login
 Description: Authenticate a user and return a JWT token.
 Request Body:
@@ -212,15 +211,13 @@ json
 {
   "error": "Task not found"
 }
-5.Error Handling
+6.Error Handling
 The API returns appropriate HTTP status codes and error messages for various scenarios:
 
 400 Bad Request: Validation errors.
 401 Unauthorized: Invalid or missing JWT.
 404 Not Found: Non-existent resources.
 
-6.Contributors
+7.Contributors
 Osama 
 
-7.License
-This project is licensed under the MIT License.
